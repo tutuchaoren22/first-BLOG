@@ -1,0 +1,72 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    position: fixed;
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-image: url(../pics/cover.jpg);
+    background-size: cover;
+}
+
+.right {
+    float: right;
+    width: 70%;
+    height: 100%;
+    background-size: cover;
+}
+
+.iconfont {
+    width: 20px;
+}
+
+.border {
+    border-style: none;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.head-image {
+    width: 100px;
+}
+
+.same-txt {
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Lobster;
+    text-align: center;
+    color: white;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.sign {
+    font-size: 15px;
+}
+
+pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+table{
+    width:100%;
+    margin-left:20px;
+    height: 65%;
+    font-family: Lobster;
+    font-size:17px;
+    color: white;
+}
+
+
