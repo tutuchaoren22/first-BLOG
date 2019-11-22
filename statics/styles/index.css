@@ -89,7 +89,7 @@ li{
     list-style-type: none;
     display: inline-block;
     height:40%;
-    border-bottom: 1px solid #666;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.4);
     overflow: auto;
 }
 .artical-header{
@@ -99,7 +99,7 @@ li{
 }
 
 .recommend-text{
-    height:40%;
+    height:60%;
     margin-left:40px;
     margin-top:20px;
     font:Lobster;
@@ -119,7 +119,7 @@ li{
 
 .recommend-pic{
     margin-top:10px;
-    height:50%;
+    height:60%;
     width:100%;
 
 }
@@ -142,4 +142,9 @@ li{
 .other-artical-pic{
     height:140px;
 
+}
+
+.click-link{
+    text-decoration:none;
+    color:pink;
 }
