@@ -106,6 +106,12 @@ li{
     font:Lobster;
 }
 
+.recommend-inline{
+    font-size:15px;
+    font:Lobster;
+    color:rgba(0, 0, 0, 0.8);
+}
+
 .artical-timer{
     font-size:13px;
     font:Lobster;
@@ -116,6 +122,7 @@ li{
     font-size:15px;
     font:Lobster;
     color:rgba(0, 0, 0, 0.8);
+    margin-bottom:10%;
 }
 
 .recommend-pic{
