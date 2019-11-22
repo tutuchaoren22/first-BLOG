@@ -101,7 +101,7 @@ li{
 }
 
 .recommend-text{
-    height:40%;
+    height:60%;
     margin-left:40px;
     margin-top:20px;
     font:Lobster;
@@ -121,6 +121,32 @@ li{
 
 .recommend-pic{
     margin-top:10px;
-    height:50%;
+    height:60%;
     width:100%;
+
+}
+
+.other-artical{
+    margin-top:20px;
+    height:20%;
+    margin-left:20px;
+    font:Lobster;
+}
+
+.other-artical-left{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.other-artical-right{
+    margin-left:10px;
+}
+.other-artical-pic{
+    height:140px;
+
+}
+
+.click-link{
+    text-decoration:none;
+    color:pink;
 }
