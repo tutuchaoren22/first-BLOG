@@ -77,7 +77,7 @@ pre {
 
 .recommend-text{
     height:40%;
-    margin-left:20px;
+    margin-left:40px;
     margin-top:20px;
     font:Lobster;
 }
@@ -98,4 +98,23 @@ pre {
     margin-top:10px;
     height:50%;
     width:100%;
+}
+
+.other-artical{
+    margin-top:20px;
+    height:20%;
+    margin-left:20px;
+    font:Lobster;
+}
+
+.other-artical-left{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.other-artical-right{
+    margin-left:10px;
+}
+.other-artical-pic{
+    height:140px;
 }
