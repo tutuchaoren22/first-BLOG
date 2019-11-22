@@ -35,7 +35,7 @@ body {
     width: 100px;
 }
 
-.text-common {
+.sign-common {
 
     margin-top: 10px;
     margin-bottom: 20px;
@@ -69,4 +69,33 @@ pre {
     color: white;
 }
 
+.artical-header{
+    font-family:Lobster;
+    font-size:25px;
+    color:black;
+}
 
+.recommend-text{
+    height:40%;
+    margin-left:20px;
+    margin-top:20px;
+    font:Lobster;
+}
+
+.artical-timer{
+    font-size:13px;
+    font:Lobster;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.artical-text{
+    font-size:15px;
+    font:Lobster;
+    color:rgba(0, 0, 0, 0.8);
+}
+
+.recommend-pic{
+    margin-top:10px;
+    height:50%;
+    width:100%;
+}
