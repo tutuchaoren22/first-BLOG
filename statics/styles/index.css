@@ -6,6 +6,7 @@ body {
 
 .left-main {
     position: fixed;
+    margin-left: 0 auto;
     float: left;
     width: 30%;
     height: 100%;
@@ -69,6 +70,28 @@ pre {
     color: white;
 }
 
+.left-article{
+    margin-top: 25px;
+    float: left;
+    width: 15%;
+    height: 20%;
+}
+.right-article{
+    float: right;
+    width: 80%;
+    height: 20%;
+}
+.aticle-image {
+   width: 200px;
+}
+li{
+    width:100%;
+    list-style-type: none;
+    display: inline-block;
+    height:40%;
+    border-bottom: 1px solid #666;
+    overflow: auto;
+}
 .artical-header{
     font-family:Lobster;
     font-size:25px;
@@ -98,6 +121,7 @@ pre {
     margin-top:10px;
     height:50%;
     width:100%;
+
 }
 
 .other-artical{
@@ -117,4 +141,5 @@ pre {
 }
 .other-artical-pic{
     height:140px;
+
 }
