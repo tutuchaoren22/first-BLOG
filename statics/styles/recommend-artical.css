@@ -11,3 +11,9 @@ h2{
     font:Lobster;
     color:rgba(0, 0, 0, 0.5);
 }
+
+.content{
+    width:50%;
+    margin-top:5%;
+    margin-left:25%;
+}
