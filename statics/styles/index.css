@@ -90,7 +90,6 @@ li{
     list-style-type: none;
     display: inline-block;
     height:35%;
-    border-bottom: 1px solid #666;
     overflow: auto;
     white-space: normal;
 }
@@ -148,5 +147,4 @@ li{
 
 .click-link{
     text-decoration:none;
-    color:pink;
 }
