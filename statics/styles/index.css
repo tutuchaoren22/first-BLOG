@@ -71,26 +71,28 @@ pre {
 }
 
 .left-article{
-    margin-top: 25px;
     float: left;
-    width: 15%;
+    margin-top: 25px;
+    width: 20%;
     height: 20%;
 }
 .right-article{
     float: right;
-    width: 80%;
+    width: 75%;
     height: 20%;
 }
 .aticle-image {
    width: 200px;
 }
+
 li{
     width:100%;
     list-style-type: none;
     display: inline-block;
-    height:40%;
+    height:35%;
     border-bottom: 1px solid #666;
     overflow: auto;
+    white-space: normal;
 }
 .artical-header{
     font-family:Lobster;
