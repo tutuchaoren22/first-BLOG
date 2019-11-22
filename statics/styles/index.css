@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 
-.left {
+.left-main {
     position: fixed;
     float: left;
     width: 30%;
@@ -13,7 +13,7 @@ body {
     background-size: cover;
 }
 
-.right {
+.right-main {
     float: right;
     width: 70%;
     height: 100%;
@@ -35,7 +35,7 @@ body {
     width: 100px;
 }
 
-.same-txt {
+.text-common {
 
     margin-top: 10px;
     margin-bottom: 20px;
@@ -60,9 +60,9 @@ pre {
     word-wrap: break-word;
 }
 
-table{
+table {
     width:100%;
-    margin-left:20px;
+    margin-left:60px;
     height: 65%;
     font-family: Lobster;
     font-size:17px;
