@@ -6,6 +6,7 @@ body {
 
 .left-main {
     position: fixed;
+    margin-left: 0 auto;
     float: left;
     width: 30%;
     height: 100%;
@@ -69,4 +70,24 @@ pre {
     color: white;
 }
 
+.left-article{
+    margin-top: 25px;
+    float: left;
+    width: 10%;
+    height: 10%;
+}
+.right-article{
+    float: right;
+    width: 70%;
+    height: 10%;
+}
+.aticle-image {
+   width: 150px;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    height:40%;
+    border-bottom: 1px solid #666;
 
+}
