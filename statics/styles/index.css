@@ -60,9 +60,9 @@ pre {
     word-wrap: break-word;
 }
 
-table {
-    width:100%;
-    margin-left:60px;
+.menu-table {
+    width:80%;
+    margin-left:15%;
     height: 65%;
     font-family: Lobster;
     font-size:17px;
