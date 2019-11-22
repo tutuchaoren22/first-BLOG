@@ -36,7 +36,7 @@ body {
     width: 100px;
 }
 
-.text-common {
+.sign-common {
 
     margin-top: 10px;
     margin-bottom: 20px;
@@ -73,21 +73,52 @@ pre {
 .left-article{
     margin-top: 25px;
     float: left;
-    width: 10%;
-    height: 10%;
+    width: 15%;
+    height: 20%;
 }
 .right-article{
     float: right;
-    width: 70%;
-    height: 10%;
+    width: 80%;
+    height: 20%;
 }
 .aticle-image {
-   width: 150px;
+   width: 200px;
 }
 li{
+    width:100%;
     list-style-type: none;
     display: inline-block;
     height:40%;
     border-bottom: 1px solid #666;
+    overflow: auto;
+}
+.artical-header{
+    font-family:Lobster;
+    font-size:25px;
+    color:black;
+}
 
+.recommend-text{
+    height:40%;
+    margin-left:40px;
+    margin-top:20px;
+    font:Lobster;
+}
+
+.artical-timer{
+    font-size:13px;
+    font:Lobster;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.artical-text{
+    font-size:15px;
+    font:Lobster;
+    color:rgba(0, 0, 0, 0.8);
+}
+
+.recommend-pic{
+    margin-top:10px;
+    height:50%;
+    width:100%;
 }
