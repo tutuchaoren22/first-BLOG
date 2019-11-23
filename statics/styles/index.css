@@ -88,7 +88,7 @@ li{
     width:100%;
     list-style-type: none;
     display: inline-block;
-    height:35%;
+    height:33%;
     overflow: auto;
     white-space: normal;
 }
@@ -99,7 +99,6 @@ li{
 }
 
 .recommend-text{
-    height:60%;
     margin-left:40px;
     margin-top:20px;
     font:Lobster;
@@ -121,14 +120,12 @@ li{
     font-size:15px;
     font:Lobster;
     color:rgba(0, 0, 0, 0.8);
-    margin-bottom:10%;
+    margin-bottom:12%;
 }
 
 .recommend-pic{
     margin-top:10px;
-    height:60%;
     width:100%;
-
 }
 
 .other-artical{
