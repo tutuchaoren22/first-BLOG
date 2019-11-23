@@ -10,18 +10,18 @@
     height: 100%;
     width: 100%;
     background-image: url(../pics/city.jpg);
-    filter: blur(12px);
     background-size: cover;
+    filter: blur(12px);
 }
 
 .info-card {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
     height: 400px;
     width: 400px;
+    transform: translate(-50%, -50%);
+    background-color: white;
     border-radius: 2%;
     box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.15);
 }
@@ -38,27 +38,27 @@
 }
 
 .user-info {
+    width: 100%;
     margin-top: 15px;
     text-align: center;
-    width: 100%;
     color: rgba(0, 0, 0, 0.6);
 }
 
 .user-detail-left {
+    float: left;
+    width: 30%;
     margin-top: 60px;
     margin-left: 20%;
-    width: 30%;
     text-align: center;
-    float: left;
     color: rgba(0, 0, 0, 0.6);
 }
 
 .user-detail-right {
+    float: right;
+    width: 30%;
     margin-top: 60px;
     margin-right: 20%;
-    width: 30%;
     text-align: center;
-    float: right;
     color: rgba(0, 0, 0, 0.6);
 }
 
