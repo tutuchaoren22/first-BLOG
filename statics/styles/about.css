@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lobster;
+    word-break: break-all;
+}
+
+.background {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-image: url(../pics/city.jpg);
+    background-size: cover;
+    filter: blur(12px);
+}
+
+.info-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 2%;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.head-sculpture {
+    text-align: center;
+    border-style: none;
+    border-radius: 50%;
+}
+
+.user-name {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.user-info {
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.user-detail-left {
+    float: left;
+    width: 30%;
+    margin-top: 60px;
+    margin-left: 20%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.user-detail-right {
+    float: right;
+    width: 30%;
+    margin-top: 60px;
+    margin-right: 20%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.close-button {
+    width: 100%;
+    height: 50px;
+}
