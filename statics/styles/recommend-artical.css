@@ -1,19 +1,43 @@
 body{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 h1{
-    font-size:30px;
-    font:Lobster;
+    font-size: 30px;
+    font: Lobster;
 }
 h2{
-    font-size:13px;
-    font:Lobster;
-    color:rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+    font: Lobster;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .content{
-    width:50%;
-    margin-top:5%;
-    margin-left:25%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.top-menu{
+    float: left;
+    width: 30px;
+    margin-left: 20px;
+}
+
+ .top-name{
+    text-align: center;
+    font-family: Lobster;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.top-head{
+    float: right;
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
 }
