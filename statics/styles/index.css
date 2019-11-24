@@ -395,4 +395,7 @@ pre {
         margin-left: 0;
         text-align: center;
     }
+    .right-list{
+        width:100%;
+    }
 }
