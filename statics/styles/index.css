@@ -288,7 +288,20 @@ pre {
         height: 100%;
         background-size: cover;
     }
+
+    .artical-text {
+        margin-bottom: 2%;
+        font: Lobster;
+        font-size: 15px;    
+        color: rgba(0, 0, 0, 0.8);    
+    }
+
+    .click-link{
+        margin-top: 10px;
+
+    }
 }
 .right-list{
     width: 95.2%;
     float: right;
+}
