@@ -16,8 +16,6 @@ body {
     height: 100%; 
     background-image: url(../pics/city.jpg);
     background-size: cover;    
-    background-image: url(../pics/city.jpg);
-    background-size: cover;
     width: 100%;
     height: 100%;
     margin-right: 0;
@@ -104,53 +102,26 @@ pre {
 .recommend-text {
     margin-left: 40px;
     margin-top: 20px;
-}
-
-.recommend-inline {
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.8);
+    border-bottom:1px solid rgba(0,0,0,0.3);
 }
 
 .article-list {
     width: 100%;  
-    height: 35%;  
-    list-style-type: none;
-    display: inline-block;
-}
-
-.left-article {
-    float: left;
-    margin-top: 25px;
-    width: 20%;
-    height: 20%;
-}
-
-.right-article {
-    float: right;
-    width: 75%;
-    height: 20%;
-}
-
-li {
-    width: 100%;
-    list-style-type: none;
-    display: inline-block;
-    height: 40%;
-    overflow: auto;
-    white-space: normal;
-    margin-bottom: 2px;
+    height: 30%;  
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    margin-top: 30px;
 }
 
 .article-list-img {
     float: left; 
-    width: 20%;
-    height: 20%;
-    margin-top: 25px;   
+    width: 180px;
+    height: 80%;   
 }
 .article-list-content {
-    float: right;
-    width: 80%;
-    height: 20%;
+    width: 70%;
+    height: 100%;
+    margin-right: 10%;
+    margin-left: 200px;
 }
 
 .artical-timer {
@@ -161,13 +132,6 @@ li {
     font-family: Lobster;
     font-size: 25px;
     color: black;
-}
-
-.recommend-text {
-    margin-left: 40px;
-    margin-top: 20px;
-    font: Lobster;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .recommend-inline {
@@ -203,10 +167,6 @@ li {
     margin-bottom: 12%;
 }
 
-.recommend-pic {
-    margin-top: 10px;
-    width: 100%;
-}
 
 .other-artical {
     margin-top: 20px;
@@ -230,4 +190,9 @@ li {
 
 .click-link {
     text-decoration: none;
+}
+
+.right-list{
+    width: 95.2%;
+    float: right;
 }
